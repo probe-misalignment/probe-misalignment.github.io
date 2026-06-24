@@ -193,17 +193,19 @@
             border-color: var(--accent-2);
         }
         .affil-item .affil-logo-wrap {
-            height: 30px;
+            width: 42px;
+            height: 42px;
             display: inline-flex;
             align-items: center;
             justify-content: center;
             flex-shrink: 0;
+            background: #fff;
+            border-radius: 9px;
+            overflow: hidden;
         }
         .affil-item img {
-            max-height: 26px;
-            max-width: 120px;
-            width: auto;
-            height: auto;
+            width: 42px;
+            height: 42px;
             object-fit: contain;
             display: block;
         }
@@ -229,8 +231,8 @@
         @media (max-width: 720px) {
             .affil-list { gap: 10px; }
             .affil-item { padding: 8px 12px 8px 10px; }
-            .affil-item .affil-logo-wrap { height: 26px; }
-            .affil-item img { max-height: 22px; max-width: 104px; }
+            .affil-item .affil-logo-wrap { width: 36px; height: 36px; }
+            .affil-item img { width: 36px; height: 36px; }
             .affil-name { font-size: 0.84rem; white-space: normal; }
         }
 
@@ -1102,11 +1104,11 @@
 
         <div class="affil-list">
             <div class="affil-item">
-                <span class="affil-logo-wrap"><img src="static/images/logos/anthropic.svg" alt="Anthropic"/></span>
+                <span class="affil-logo-wrap"><img src="static/images/logos/anthropic.png" alt="Anthropic"/></span>
                 <span class="affil-text"><span class="affil-num">1</span><span class="affil-name">Anthropic Fellows Program</span></span>
             </div>
             <div class="affil-item">
-                <span class="affil-logo-wrap"><img src="static/images/logos/mats.svg" alt="MATS"/></span>
+                <span class="affil-logo-wrap"><img src="static/images/logos/mats.png" alt="MATS"/></span>
                 <span class="affil-text"><span class="affil-num">2</span><span class="affil-name">MATS</span></span>
             </div>
             <div class="affil-item">
@@ -1118,11 +1120,11 @@
                 <span class="affil-text"><span class="affil-num">4</span><span class="affil-name">University of Oxford</span></span>
             </div>
             <div class="affil-item">
-                <span class="affil-logo-wrap"><img src="static/images/logos/ucsb.svg" alt="UC Santa Barbara"/></span>
+                <span class="affil-logo-wrap"><img src="static/images/logos/ucsb.png" alt="UC Santa Barbara"/></span>
                 <span class="affil-text"><span class="affil-num">5</span><span class="affil-name">UC Santa Barbara</span></span>
             </div>
             <div class="affil-item">
-                <span class="affil-logo-wrap"><img src="static/images/logos/anthropic.svg" alt="Anthropic"/></span>
+                <span class="affil-logo-wrap"><img src="static/images/logos/anthropic.png" alt="Anthropic"/></span>
                 <span class="affil-text"><span class="affil-num">6</span><span class="affil-name">Anthropic</span></span>
             </div>
         </div>
