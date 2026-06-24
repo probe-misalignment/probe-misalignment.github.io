@@ -31,8 +31,7 @@ github-page/
     │   ├── fig2.png                #   four-stage probe pipeline
     │   ├── fig3.png                #   two failure modes
     │   ├── fig4.png                #   18- vs 5- vs 1-probe decomposition curve
-    │   ├── fig5.png                #   three case studies
-    │   └── cosine_matrix.png       #   probe-direction cosine similarity
+    │   └── fig5.png                #   three case studies
     └── js/
         ├── indicator_data.js       # the 18-indicator taxonomy (definitions + examples)
         └── indicators.js           # Indicator Browser renderer
