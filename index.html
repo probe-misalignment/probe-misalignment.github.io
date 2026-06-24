@@ -193,21 +193,19 @@
             border-color: var(--accent-2);
         }
         .affil-item .affil-logo-wrap {
-            width: 52px;
-            height: 52px;
+            height: 30px;
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            background: var(--bg-soft);
-            border-radius: 10px;
             flex-shrink: 0;
         }
         .affil-item img {
-            max-height: 44px;
-            max-width: 48px;
+            max-height: 26px;
+            max-width: 120px;
             width: auto;
             height: auto;
             object-fit: contain;
+            display: block;
         }
         .affil-item .affil-text {
             display: flex;
@@ -231,8 +229,8 @@
         @media (max-width: 720px) {
             .affil-list { gap: 10px; }
             .affil-item { padding: 8px 12px 8px 10px; }
-            .affil-item .affil-logo-wrap { width: 44px; height: 44px; }
-            .affil-item img { max-height: 36px; max-width: 40px; }
+            .affil-item .affil-logo-wrap { height: 26px; }
+            .affil-item img { max-height: 22px; max-width: 104px; }
             .affil-name { font-size: 0.84rem; white-space: normal; }
         }
 
@@ -1103,12 +1101,30 @@
         </p>
 
         <div class="affil-list">
-            <div class="affil-item"><span class="affil-text"><span class="affil-num">1</span><span class="affil-name">Anthropic Fellows Program</span></span></div>
-            <div class="affil-item"><span class="affil-text"><span class="affil-num">2</span><span class="affil-name">MATS</span></span></div>
-            <div class="affil-item"><span class="affil-text"><span class="affil-num">3</span><span class="affil-name">UC Santa Cruz</span></span></div>
-            <div class="affil-item"><span class="affil-text"><span class="affil-num">4</span><span class="affil-name">University of Oxford</span></span></div>
-            <div class="affil-item"><span class="affil-text"><span class="affil-num">5</span><span class="affil-name">UC Santa Barbara</span></span></div>
-            <div class="affil-item"><span class="affil-text"><span class="affil-num">6</span><span class="affil-name">Anthropic</span></span></div>
+            <div class="affil-item">
+                <span class="affil-logo-wrap"><img src="static/images/logos/anthropic.svg" alt="Anthropic"/></span>
+                <span class="affil-text"><span class="affil-num">1</span><span class="affil-name">Anthropic Fellows Program</span></span>
+            </div>
+            <div class="affil-item">
+                <span class="affil-logo-wrap"><img src="static/images/logos/mats.svg" alt="MATS"/></span>
+                <span class="affil-text"><span class="affil-num">2</span><span class="affil-name">MATS</span></span>
+            </div>
+            <div class="affil-item">
+                <span class="affil-logo-wrap"><img src="static/images/logos/ucsc.svg" alt="UC Santa Cruz"/></span>
+                <span class="affil-text"><span class="affil-num">3</span><span class="affil-name">UC Santa Cruz</span></span>
+            </div>
+            <div class="affil-item">
+                <span class="affil-logo-wrap"><img src="static/images/logos/oxford.svg" alt="University of Oxford"/></span>
+                <span class="affil-text"><span class="affil-num">4</span><span class="affil-name">University of Oxford</span></span>
+            </div>
+            <div class="affil-item">
+                <span class="affil-logo-wrap"><img src="static/images/logos/ucsb.svg" alt="UC Santa Barbara"/></span>
+                <span class="affil-text"><span class="affil-num">5</span><span class="affil-name">UC Santa Barbara</span></span>
+            </div>
+            <div class="affil-item">
+                <span class="affil-logo-wrap"><img src="static/images/logos/anthropic.svg" alt="Anthropic"/></span>
+                <span class="affil-text"><span class="affil-num">6</span><span class="affil-name">Anthropic</span></span>
+            </div>
         </div>
 
         <div class="links">

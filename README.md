@@ -32,6 +32,7 @@ github-page/
     │   ├── fig3.png                #   two failure modes
     │   ├── fig4.png                #   18- vs 5- vs 1-probe decomposition curve
     │   └── fig5.png                #   three case studies
+    ├── images/logos/               # affiliation logos (SVG): Anthropic, MATS, UCSC, Oxford, UCSB
     └── js/
         ├── indicator_data.js       # the 18-indicator taxonomy (definitions + examples)
         └── indicators.js           # Indicator Browser renderer
