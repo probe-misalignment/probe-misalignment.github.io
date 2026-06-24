@@ -49,10 +49,14 @@ to update the browser; no runtime fetch or build step is required.
 
 ```bibtex
 @misc{zhou2026probing,
-  title  = {Probing the Misaligned Thinking Process of Language Models},
-  author = {Zhou, Kaiwen and Venhoff, Constantin and Michala, Jonathan
-            and Wang, Xin Eric and Saunders, William},
-  year   = {2026}
+  title         = {Probing the Misaligned Thinking Process of Language Models},
+  author        = {Zhou, Kaiwen and Venhoff, Constantin and Michala, Jonathan
+                   and Wang, Xin Eric and Saunders, William},
+  year          = {2026},
+  eprint        = {2606.24251},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.LG},
+  url           = {https://arxiv.org/abs/2606.24251}
 }
 ```
 
