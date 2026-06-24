@@ -1142,7 +1142,6 @@
             <a href="#approach">Approach</a>
             <a href="#pipeline">Probe Pipeline</a>
             <a href="#cascade">Two-Stage Cascade</a>
-            <a href="#indicators">Indicator Browser</a>
             <a href="#dashboard">Results</a>
             <a href="#findings">Key Findings</a>
             <a href="#analysis">Analysis</a>
@@ -1247,8 +1246,34 @@
                 <strong>self-preservation</strong> (resisting shutdown or modification). Annotating
                 misaligned traces from the target model (GLM-4.7 Flash) yields a final set of
                 <span class="accent-strong">18 indicators</span> across six groups, each with a precise
-                definition and example reasoning. <a href="tasks.html">Browse all 18 indicators →</a>
+                definition and example reasoning. Explore them in the interactive Indicator Browser below.
             </p>
+
+            <div class="cta-card">
+                <div class="cta-left">
+                    <div class="cta-eyebrow">Indicator Browser</div>
+                    <h3 class="cta-title">Explore all 18 misalignment indicators</h3>
+                    <p class="cta-desc">
+                        Browse the indicators group by group. Each card carries a precise definition
+                        and example reasoning excerpts—the same specifications used to label probe
+                        training data and to prompt the indicator judge.
+                    </p>
+                    <div class="cta-actions">
+                        <a href="tasks.html" class="btn btn-cta">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>
+                            Browse 18 Indicators
+                        </a>
+                    </div>
+                </div>
+                <div class="cta-right">
+                    <a href="tasks.html?group=deception" class="domain-mini" style="--dc:#2563eb"><span>🎭</span><span>Deception</span></a>
+                    <a href="tasks.html?group=sycophancy" class="domain-mini" style="--dc:#7c3aed"><span>🪞</span><span>Sycophancy</span></a>
+                    <a href="tasks.html?group=sabotage" class="domain-mini" style="--dc:#dc2626"><span>🧨</span><span>Sabotage</span></a>
+                    <a href="tasks.html?group=sandbagging" class="domain-mini" style="--dc:#d97706"><span>📉</span><span>Sandbagging</span></a>
+                    <a href="tasks.html?group=self_preservation" class="domain-mini" style="--dc:#0d9488"><span>🛡️</span><span>Self-Preservation</span></a>
+                    <a href="tasks.html?group=cross_cutting" class="domain-mini" style="--dc:#475569"><span>🔀</span><span>Cross-Cutting</span></a>
+                </div>
+            </div>
         </section>
 
         <!-- Pipeline -->
@@ -1310,44 +1335,9 @@
             </p>
         </section>
 
-        <!-- ============== INDICATOR BROWSER CTA ============== -->
-        <section id="indicators">
-            <h2 class="section-title"><span class="num">05</span>Indicator Browser</h2>
-            <p class="section-sub">
-                The Indicator Browser is generated from the paper's taxonomy. Switch between
-                behavioral groups, search by name or definition, and inspect each indicator's
-                precise criterion and example reasoning excerpts from real thinking traces.
-            </p>
-            <div class="cta-card">
-                <div class="cta-left">
-                    <div class="cta-eyebrow">Indicator Browser</div>
-                    <h3 class="cta-title">Explore all 18 misalignment indicators</h3>
-                    <p class="cta-desc">
-                        Browse the indicators group by group. Each card carries a precise definition
-                        and example reasoning excerpts—the same specifications used to label probe
-                        training data and to prompt the indicator judge.
-                    </p>
-                    <div class="cta-actions">
-                        <a href="tasks.html" class="btn btn-cta">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>
-                            Browse 18 Indicators
-                        </a>
-                    </div>
-                </div>
-                <div class="cta-right">
-                    <a href="tasks.html?group=deception" class="domain-mini" style="--dc:#2563eb"><span>🎭</span><span>Deception</span></a>
-                    <a href="tasks.html?group=sycophancy" class="domain-mini" style="--dc:#7c3aed"><span>🪞</span><span>Sycophancy</span></a>
-                    <a href="tasks.html?group=sabotage" class="domain-mini" style="--dc:#dc2626"><span>🧨</span><span>Sabotage</span></a>
-                    <a href="tasks.html?group=sandbagging" class="domain-mini" style="--dc:#d97706"><span>📉</span><span>Sandbagging</span></a>
-                    <a href="tasks.html?group=self_preservation" class="domain-mini" style="--dc:#0d9488"><span>🛡️</span><span>Self-Preservation</span></a>
-                    <a href="tasks.html?group=cross_cutting" class="domain-mini" style="--dc:#475569"><span>🔀</span><span>Cross-Cutting</span></a>
-                </div>
-            </div>
-        </section>
-
         <!-- ============== DASHBOARD ============== -->
         <section id="dashboard">
-            <h2 class="section-title"><span class="num">06</span>Results</h2>
+            <h2 class="section-title"><span class="num">05</span>Results</h2>
             <p class="section-sub">
                 Test-set AUROC against the Opus misalignment judge, plus cross-lingual robustness and
                 out-of-distribution stress tests. Toggle the views below.
@@ -1388,7 +1378,7 @@
 
         <!-- ============== KEY FINDINGS ============== -->
         <section id="findings">
-            <h2 class="section-title"><span class="num">07</span>Key Findings</h2>
+            <h2 class="section-title"><span class="num">06</span>Key Findings</h2>
             <div class="findings">
                 <div class="finding" data-num="01">
                     <h4>Probes rival strong LLM judges</h4>
@@ -1419,7 +1409,7 @@
 
         <!-- ============== ANALYSIS FIGURES ============== -->
         <section id="analysis">
-            <h2 class="section-title"><span class="num">08</span>Analysis</h2>
+            <h2 class="section-title"><span class="num">07</span>Analysis</h2>
 
             <p><strong>Probes detect cognitive patterns, not surface vocabulary.</strong>
             Only <strong>18%</strong> of a probe's firing keywords appear in its training positives,
@@ -1481,7 +1471,7 @@
 
         <!-- ============== CITATION ============== -->
         <section id="citation">
-            <h2 class="section-title"><span class="num">09</span>Citation</h2>
+            <h2 class="section-title"><span class="num">08</span>Citation</h2>
             <p class="section-sub">If you find this work useful, please cite:</p>
             <div class="citation">
                 <button class="copy-btn" id="copyCite">Copy</button>
